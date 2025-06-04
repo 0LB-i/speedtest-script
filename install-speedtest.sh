@@ -30,7 +30,7 @@ Group=root
 Type=forking
 RemainAfterExit=no
 
-WorkingDirectory=/opt/ooklaserver
+WorkingDirectory=/opt
 ExecStart=/opt/ooklaserver.sh start
 ExecReload=/opt/ooklaserver.sh restart
 #ExecStop=/opt/ooklaserver.sh stop
