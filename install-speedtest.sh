@@ -27,8 +27,8 @@ After=network.target
 [Service]
 User=root
 Group=root
-Type=simple
-RemainAfterExit=yes
+Type=forking
+RemainAfterExit=no
 
 WorkingDirectory=/opt/ooklaserver
 ExecStart=/opt/ooklaserver.sh start
