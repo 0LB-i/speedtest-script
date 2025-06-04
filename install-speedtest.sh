@@ -32,7 +32,7 @@ RemainAfterExit=yes
 
 WorkingDirectory=/opt/ooklaserver
 ExecStart=/opt/ooklaserver.sh start
-ExecReload=/opt/local/src/ooklaserver.sh restart
+ExecReload=/opt/ooklaserver.sh restart
 #ExecStop=/opt/ooklaserver.sh stop
 ExecStop=/usr/bin/killall -9 OoklaServer
 
