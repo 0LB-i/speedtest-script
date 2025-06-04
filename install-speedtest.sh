@@ -30,10 +30,10 @@ Group=root
 Type=simple
 RemainAfterExit=yes
 
-WorkingDirectory=/usr/local/src/ooklaserver
-ExecStart=/usr/local/src/ooklaserver.sh start
-ExecReload=/usr/local/src/ooklaserver.sh restart
-#ExecStop=/usr/local/src/ooklaserver.sh stop
+WorkingDirectory=/opt/ooklaserver
+ExecStart=/opt/ooklaserver.sh start
+ExecReload=/opt/local/src/ooklaserver.sh restart
+#ExecStop=/opt/ooklaserver.sh stop
 ExecStop=/usr/bin/killall -9 OoklaServer
 
 TimeoutStartSec=30
