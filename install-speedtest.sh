@@ -41,7 +41,6 @@ TimeoutStopSec=30
 
 [Install]
 WantedBy=multi-user.target
-Alias=speedtest.service
 EOF
 
 # Reload systemd and enable the service to start on boot
