@@ -2,6 +2,7 @@
 
 # Install and configure OoklaServer
 cd /opt || exit 1
+dnf install wget -y
 wget https://install.speedtest.net/ooklaserver/ooklaserver.sh
 chmod a+x ooklaserver.sh
 ./ooklaserver.sh install -f
